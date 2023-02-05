@@ -1,52 +1,94 @@
-const questions = [
+const managerQuestions = [
     {
       type: 'input',
-      message: 'Project Title:',
-      name: 'title',
+      message: `Team Manager's name:`,
+      name: 'managerName',
     },
     {
       type: 'input',
-      message: 'Description:',
-      name: 'description',
-    },
-    {
-      type: 'input',
-      message: 'Installation Instructions:',
-      name: 'install',
-    },
-    {
-      type: 'input',
-      message: 'Usage Information:',
-      name: 'usage',
-    },
-    {
-      type: 'input',
-      message: 'Contribution Guidelines:',
-      name: 'contribution',
-    },
-    {
-      type: 'input',
-      message: 'Test Instructions:',
-      name: 'test',
-    },
-    {
-      type: 'list',
-      name: 'license',
-      message: 'License Type:',
-      choices: ['Apache', 'GNU', 'MIT'],
-    },
-    {
-      type: 'input',
-      message: 'GitHub Username:',
-      name: 'gitUser',
+      message: 'Id:',
+      name: 'managerId',
     },
     {
       type: 'input',
       message: 'Email:',
-      name: 'email',
-    }
-  ];
+      name: 'managerEmail',
+    },
+    {
+      type: 'input',
+      message: 'Office Number:',
+      name: 'managerOffice',
+    },
+];
 
-  module.exports = {
-    questions
-  };
+const checkComplete = [
+    {
+      type: 'list',
+      name: 'done',
+      message: 'Is team complete?',
+      choices: ['Yes', 'No'],
+    },
+];
+
+const engineerQuestions = [
+  {
+    type: 'input',
+    message: `Engineer's name:`,
+    name: 'engineerName',
+  },
+  {
+    type: 'input',
+    message: 'Id:',
+    name: 'engineerId',
+  },
+  {
+    type: 'input',
+    message: 'Email:',
+    name: 'engineerEmail',
+  },
+  {
+    type: 'input',
+    message: 'GitHub Username:',
+    name: 'gitUsername',
+  },
+];
+
+const checkMember = [
+    {
+      type: 'list',
+      name: 'done',
+      message: 'Member Type:',
+      choices: ['Engineer', 'Intern'],
+    },
+];
+
+const internQuestions = [
+  {
+    type: 'input',
+    message: `Intern's name:`,
+    name: 'interName',
+  },
+  {
+    type: 'input',
+    message: 'Id:',
+    name: 'internId',
+  },
+  {
+    type: 'input',
+    message: 'Email:',
+    name: 'internEmail',
+  },
+  {
+    type: 'input',
+    message: 'School Name:',
+    name: 'school',
+  },
+];
+
+module.exports = {
+  managerQuestions,
+  checkComplete,
+  checkMember,
+  engineerQuestions,
+  internQuestions
+};
