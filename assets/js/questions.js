@@ -66,7 +66,7 @@ const internQuestions = [
   {
     type: 'input',
     message: `Intern's name:`,
-    name: 'interName',
+    name: 'internName',
   },
   {
     type: 'input',

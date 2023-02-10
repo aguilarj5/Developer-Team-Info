@@ -30,6 +30,10 @@ class Manager extends Employee {
         this.officeNumber = officeNumber;
     }
 
+    getOffice() {
+        return this.officeNumber;
+    }
+
     getRole() {
         return 'Manager';
     }
@@ -61,7 +65,7 @@ class Intern extends Employee {
     }
 
     getSchool() {
-
+        return this.school;
     }
 
     getRole() {

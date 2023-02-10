@@ -1,0 +1,23 @@
+header {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 5px;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+flexbox {
+    display: inline-flex;
+    justify-content: center;
+    width: -webkit-fill-available;
+}
+
+.card {
+    display: inline-flex;
+    margin: 10px;
+    justify-content: space-evenly;
+}
+
+.card-text {
+    margin: 5px;
+}
