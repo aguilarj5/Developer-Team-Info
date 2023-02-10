@@ -60,7 +60,7 @@ N/A
 
 ## Contributing
 
-The GitHub Repository can be found on the following this link [here.](https://github.com/aguilarj5/Developer-Team-Info.git)
+The GitHub Repository can be found on the following this link [here.](https://github.com/aguilarj5/Developer-Team-Page.git)
 
 <a name="authors"/>
 
